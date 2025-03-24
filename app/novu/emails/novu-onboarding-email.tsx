@@ -17,7 +17,10 @@ import {
   Text,
 } from "@react-email/components";
 
-import { ControlSchema, PayloadSchema } from "../workflows";
+import {
+  ControlSchema,
+  PayloadSchema,
+} from "../workflows/welcome-onboarding-email/types";
 
 type NovuWelcomeEmailProps = ControlSchema & PayloadSchema;
 
